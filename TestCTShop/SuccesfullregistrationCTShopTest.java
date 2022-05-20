@@ -33,7 +33,7 @@ public class SuccesfullregistrationCTShopTest extends BaseTestCTShop {
     public void succesfullRegistrationTest(){
         pageTestCTShop
                 .sendKeysImeInputField(testIme)
-                .clickNewsLetterCheckbox()
+               // .clickNewsLetterCheckbox()
                 .sendKeysprezimeInputField(testPrezime)
                 .sendKeysemailInputField(testEmail)
                 .selectDropDownDa()

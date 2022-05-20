@@ -30,10 +30,9 @@ public class FailedRegistrationWithNoName extends BaseTestCTShop {
     }
 
     @Test
-    public void succesfullRegistrationTest(){
+    public void failedRegistrationWithNoName(){
         pageTestCTShop
-               // .sendKeysImeInputField(testIme)
-                .clickNewsLetterCheckbox()
+
                 .sendKeysprezimeInputField(testPrezime)
                 .sendKeysemailInputField(testEmail)
                 .selectDropDownDa()

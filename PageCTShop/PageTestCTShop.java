@@ -48,14 +48,7 @@ public class PageTestCTShop extends BaseTestCTShop {
         return this;
     }
 
-    public PageTestCTShop clickNewsLetterCheckbox(){
-        wdWait.until(ExpectedConditions.visibilityOf(newsLetterCheckbox));
-        if (newsLetterCheckbox.isSelected()){
-            newsLetterCheckbox.click();
 
-        }
-        return this;
-    }
     public PageTestCTShop sendKeysprezimeInputField(String testPrezime){
         wdWait.until(ExpectedConditions.visibilityOf(prezimeInputField));
         prezimeInputField.clear();
